@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e5e6;
+    padding: 30px;
+}
+
+.perfil img {
+    border-radius: 20px;
+    width: 180px;
+    height: 180px;
+}
+
+.pessoal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:500px;
+}
+
+.pessoal ul {
+    list-style: none;
+}
+
+.pessoal li {
+    padding: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.resumo, .historico, .formacao, .habilidades  {
+    text-align: justify;
+    width: 47%;
+    border: 2px solid #d1d1d1;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.parte1, .parte2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.redes {
+    background-color: #414141;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.redes img {
+    max-width: 100px;
+    max-height: 100px;
+}
